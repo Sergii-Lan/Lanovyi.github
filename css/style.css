@@ -1,0 +1,39 @@
+/** відстані вирішив зробити у % */
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #feffdd; /** по картинці не зрозуміло чи є там фон тому зробив так */
+}
+/** Заголовок зробив капсом */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2,
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+li span {
+    color: grey;
+}
+
+hr {
+    color: grey;
+}
+li a {
+    color: blue;
+}
+.text-center {
+    text-align: center;
+}
+
+.li {
+    list-style-type: none; /* Убераємо маркери */
+    color: grey;
+}
+.grey {
+    color: grey;
+}
+
+
