@@ -1,7 +1,7 @@
 /** відстані вирішив зробити у % */
 body {
-    margin-left: 30%;
     margin-right: 30%;
+    margin-left: 30%;
     background-color: #feffdd; /** по картинці не зрозуміло чи є там фон тому зробив так */
 }
 /** Заголовок зробив капсом */
@@ -9,31 +9,36 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 h2,
 h3 {
     font-size: 20px;
     font-weight: bold;
 }
+
 li span {
-    color: grey;
+    color: #808080;
 }
 
 hr {
-    color: grey;
+    color: #808080;
 }
+
 li a {
-    color: blue;
+    color: #00f;
 }
+
 .text-center {
     text-align: center;
 }
 
 .li {
+    color: #808080;
     list-style-type: none; /* Убераємо маркери */
-    color: grey;
 }
+
 .grey {
-    color: grey;
+    color: #808080;
 }
 
 
