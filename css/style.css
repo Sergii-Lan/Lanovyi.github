@@ -1,44 +1,73 @@
 /** відстані вирішив зробити у % */
-body {
-    margin-right: 30%;
-    margin-left: 30%;
-    background-color: #feffdd; /** по картинці не зрозуміло чи є там фон тому зробив так */
+.size-page {
+    width: 500px;
+    margin: 50px auto;
+    font-family: "Myriad Pro", Myriad, Arial;
+    font-size: 14px;
+    text-align: center;
 }
+
 /** Заголовок зробив капсом */
 h1 {
+    margin-bottom: 28px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2,
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    text-align: left;
+}
+
+ul li {
+    margin-left: -9px;
+    padding-left: 6px;
+    line-height: 19px;
+}
+
+li {
+    text-align: left;
 }
 
 li span {
     color: #808080;
+    line-height: none;
 }
 
 hr {
     color: #808080;
 }
 
+img {
+    border: 1px solid #000;
+}
+
 li a {
     color: #00f;
 }
 
-.text-center {
+.text-cent {
     text-align: center;
 }
 
-.li {
+.for-li {
     color: #808080;
     list-style-type: none; /* Убераємо маркери */
+
 }
 
-.grey {
+.col-grey {
     color: #808080;
+    text-align: left;
 }
+
+.block {
+    border-bottom: 1px solid #808080;
+    line-height: 23px;
+}
+
 
 
