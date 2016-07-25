@@ -33,12 +33,11 @@ li {
 }
 
 li span {
-    color: #808080;
-    line-height: none;
+    color: #1f1f1f;
 }
 
 hr {
-    color: #808080;
+    color: #1f1f1f;
 }
 
 img {
@@ -54,13 +53,12 @@ li a {
 }
 
 .for-li {
-    color: #808080;
+    color: #1f1f1f;
     list-style-type: none; /* Убераємо маркери */
-
 }
 
 .col-grey {
-    color: #808080;
+    color: #1f1f1f;
     text-align: left;
 }
 
