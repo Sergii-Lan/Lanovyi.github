@@ -29,12 +29,13 @@ ul li {
 }
 
 li {
-    text-align: left;
+    color: #1f1f1f;
+	text-align: left;    
 }
 
-li span {
+/*li span {
     color: #1f1f1f;
-}
+}*/
 
 hr {
     color: #1f1f1f;
