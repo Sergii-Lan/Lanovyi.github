@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-block {
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+.main-block {
+    width: 965px;
+    margin: 0 auto;
+    padding: 50px 45px;
+    background-color: #fff;
+}
+
+.header {
+    margin: 40px 0;
+    background-color: #4f4f4f;
+}
+
+.header ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none; /*убераємо маркери*/
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header li a {
+    display: inline-block;
+    padding: 0 40px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    border-right: 1px solid #808080; /*щоб при наведені мишкою були границі*/
+    border-left: 1px solid #808080;
+    background-color: #424242;
+}
+
+.content {
+    margin: 40px 0;
+}
+
+.clearfix::after { /* зачистка float*/
+    display: block;
+    clear: both;
+    content: '';
+    /*height: 0;
+    visibility: hidden;*/ /*працює і без цих пунктів*/
+}
+
+.float-left {
+    display: block;
+    width: 240px; /*бачив при float викристовують %*/
+    float: left;
+}
+
+.float-left ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    list-style: none;
+}
+
+.float-left a {
+    display: block;
+    height: 39px;
+    padding: 0 25px;
+    border-bottom: 1px solid #ccc;
+    color: #4f4f4f;
+    line-height: 39px; /*висота ліній щоб текст був по центру*/
+    text-decoration: none;
+}
+
+.float-left li:last-child a {
+    border-bottom: 0; /*убераємо нижню границю бо вона є в ul*/
+}
+
+.float-left a:hover {
+    padding: 0 50px; /*робимо відступ при наведені мишкою*/
+    color: #000;
+}
+
+.float-right {
+    width: 680px; /*бачив при float викристовують %*/
+    float: right;
+}
+
+.img-content {
+    padding: 40px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.float-right p {
+    margin-top: 40px;
+    padding-left: 15px;
+    line-height: 22px;
+}
+
+.footer {
+    display: block;
+    margin-top: 40px;
+    background-color: #ccc;
+}
+
+.footer ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.footer li a {
+    display: inline-block;
+    color: #000;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-right: 18px;
+    float: right;
+    font-size: 13px;
+    line-height: 40px;
+}
