@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.full-block {
+body {
     background-color: #f9f9f9;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -16,22 +16,22 @@
     background-color: #fff;
 }
 
-.header {
+header {
     margin: 40px 0;
     background-color: #4f4f4f;
 }
 
-.header ul {
+header ul {
     display: inline-block;
     padding-left: 0;
     list-style: none; /*убераємо маркери*/
 }
 
-.header ul li {
+header ul li {
     display: inline-block;
 }
 
-.header li a {
+header li a {
     display: inline-block;
     padding: 0 40px;
     border-right: 1px solid transparent;
@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 
-.header li a:hover {
+header li a:hover {
     border-right: 1px solid #808080; /*щоб при наведені мишкою були границі*/
     border-left: 1px solid #808080;
     background-color: #424242;
@@ -109,32 +109,32 @@
     line-height: 22px;
 }
 
-.footer {
+footer {
     display: block;
     margin-top: 40px;
     background-color: #ccc;
 }
 
-.footer ul {
+footer ul {
     display: inline-block;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.footer ul li {
+footer ul li {
     display: inline-block;
     padding: 0 40px;
 }
 
-.footer li a {
+footer li a {
     display: inline-block;
     color: #000;
     line-height: 40px;
     text-decoration: none;
 }
 
-.footer li a:hover {
+footer li a:hover {
     text-decoration: underline;
 }
 
