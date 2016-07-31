@@ -33,7 +33,7 @@ header ul li {
 
 header li a {
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 53px 0 25px;
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
     color: #fff;
