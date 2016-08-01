@@ -42,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-.left {
+.menu li a.left {
     padding-left: 20px;
 }
 
@@ -149,6 +149,3 @@ footer li a:hover {
     line-height: 40px;
 }
 
-.left {
-    padding-left: 20px;
-}
