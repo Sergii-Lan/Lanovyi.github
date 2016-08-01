@@ -33,13 +33,17 @@ body {
 
 .menu li a {
     display: inline-block;
-    padding: 0 53px 0 25px;
+    padding:0 40px;
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
     color: #fff;
     font-size: 15px;
     line-height: 40px;
     text-decoration: none;
+}
+
+.left {
+    padding-left: 20px;
 }
 
 .menu li a:hover {
@@ -111,7 +115,7 @@ body {
 
 footer {
     display: block;
-    margin-top: 40px;
+    margin-top: 60px;
     background-color: #ccc;
 }
 
@@ -143,4 +147,8 @@ footer li a:hover {
     float: right;
     font-size: 13px;
     line-height: 40px;
+}
+
+.left {
+    padding-left: 20px;
 }
